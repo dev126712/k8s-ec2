@@ -4,7 +4,7 @@
 
 ## On Debian Ec2 instance 'User data'.
 ### - The bash script first update the packeages and install git. 
-### - Then clone my other github repo that insatll Docker, Terraform (even though you dont need it for this demo), Kubernetes (kubectl & Minikube) and AWS cli. 
+### - Then clone my other github repo that insatll Docker, Terraform (even though you dont need it for this demo), Kubernetes (kubectl & Minikube) and AWS cli. [GitHub Pages](https://github.com/dev126712/Installation.git) 
 ### - After that it clone this repo that contain the Kubernetes demo, install npm and express.
 ### - Give the permission needed to use docker without the 'sudo'. You might need the do it manually on the instance.
 ### - Install jq that format the JSON return by kubernetes.
