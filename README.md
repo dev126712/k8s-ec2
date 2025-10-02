@@ -66,7 +66,7 @@ kubectl cluster-info
 kubectl apply -f k8s/deployment.yml
 kubectl apply -f k8s/service.yml
 ```
-### Or
+### Or together with one commanc:
 
 ``` bash
 kubectl apply -f k8s/
