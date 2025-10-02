@@ -36,7 +36,7 @@ sudo docker compose up --build
 ``` bash
 docker ps
 ```
-### If its says that you dont have the permission needed run this command that gonna give your user the permission to run docker command without 'sudo':
+### If its says that you dont have the permission needed. You need to manually run this command that gonna give your current user the permission needed  to run docker command without 'sudo
 
 ``` bash
 sudo usermod -aG docker $USER && newgrp docker
