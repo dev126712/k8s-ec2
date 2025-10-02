@@ -10,7 +10,7 @@
 ### - Build the Docker image.
 ### - Install jq that format the JSON return by kubernetes.
 #### Even though your instance is up and running it should take a couple of minute to install everything so be patient :).
-
+#### If you're not using user data you can still run this on a bash script on your machine.
 ``` bash
 #!/bin/bash
 
