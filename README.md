@@ -12,3 +12,4 @@ git clone https://github.com/dev126712/project.git
 cd project/node-app-kubernetes
 sudo apt install npm -y
 npm install express
+sudo usermod -aG docker $USER && newgrp docker
