@@ -108,7 +108,10 @@ curl -s http://192.168.49.2:32036 | jq .
 
 ### As expected if you look closely to the pod field you can see that there 2 different pod id:
 
+#### First:
 ![alt text](https://github.com/dev126712/k8s-ec2/blob/7c8fe6502a41491f89df1460e560bfec883d656c/Images/Screenshot%202025-10-02%204.30.40%20PM.png)
+
+#### Second
 ![alt text](https://github.com/dev126712/k8s-ec2/blob/7c8fe6502a41491f89df1460e560bfec883d656c/Images/Screenshot%202025-10-02%204.31.01%20PM.png)
 
 ### That because in the 'deployment.yml' file we specified 2 replicas.
