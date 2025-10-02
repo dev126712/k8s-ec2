@@ -9,8 +9,8 @@ cd Installation
 chmod +x 'DockerTerrKub.sh'
 ./'DockerTerrKub.sh'
 cd ../home/admin
-git clone https://github.com/dev126712/project.git
-cd project/node-app-kubernetes
+https://github.com/dev126712/k8s-ec2.git
+cd k8s-ec2/node-app-kubernetes
 sudo apt install npm -y
 npm install express
 sudo usermod -aG docker $USER && newgrp docker
