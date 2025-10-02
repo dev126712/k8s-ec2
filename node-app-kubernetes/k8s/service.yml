@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: devops-k8s-api-service
   labels:
-    app: devops-k8s-api
+    app: kubernetes-demo-api
 spec:
   selector:
-    app: devops-k8s-api
+    app: kubernetes-demo-api
   ports:
     - protocol: TCP
       port: 3000 # Service port
