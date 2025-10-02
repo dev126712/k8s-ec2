@@ -5,9 +5,6 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install git -y
 git clone https://github.com/dev126712/Installation.git
-cd Installation
-chmod +x 'DockerTerrKub.sh'
-./'DockerTerrKub.sh'
 cd ../home/admin
 https://github.com/dev126712/k8s-ec2.git
 cd k8s-ec2/node-app-kubernetes
