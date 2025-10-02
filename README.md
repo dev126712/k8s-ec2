@@ -1,6 +1,3 @@
-##### For user data Debian ec2 instance
-
-```bash
 #!/bin/bash
 
 sudo apt update
@@ -12,9 +9,6 @@ chmod +x 'DockerTerrKub.sh'
 ./'DockerTerrKub.sh'
 cd ../home/admin
 git clone https://github.com/dev126712/project.git
+cd project
 sudo apt install npm -y
 npm install express
-```
-
-
-
