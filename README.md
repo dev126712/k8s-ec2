@@ -14,4 +14,7 @@ cd k8s-ec2/node-app-kubernetes
 sudo apt install npm -y
 npm install express
 sudo usermod -aG docker $USER && newgrp docker
+sudo docker compose up --build
+sudo apt install jq -y
+
 ```
