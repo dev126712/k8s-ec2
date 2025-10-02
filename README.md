@@ -7,8 +7,8 @@
 ### - Then clone my other github repo that insatll Docker, Terraform (even though you dont need it for this demo), Kubernetes (kubectl & Minikube) and AWS cli. 
 ### - After that it clone this repo that contain the Kubernetes demo, install npm and express.
 ### - Give the permission needed to use docker without the 'sudo'. You might need the do it manually on the instance.
-### - Build the Docker image.
 ### - Install jq that format the JSON return by kubernetes.
+### - Build the Docker image.
 #### Even though your instance is up and running it should take a couple of minute to install everything so be patient :).
 #### If you're not using user data you can still run this on a bash script on your machine.
 ``` bash
