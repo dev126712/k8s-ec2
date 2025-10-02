@@ -59,7 +59,7 @@ kubectl cluster-info
 ```
 
 ## Deplyment
-
+#### Make sure to be in the 'node-app-kubernetes' folder.
 ### Now deploy the kubernetes files by running each one individualy:
 
 ``` bash
