@@ -9,6 +9,7 @@
 ### Give the permission needed to use docker without the 'sudo'. You might need the do it manually on the instance.
 ### Build the Docker image.
 ### Install jq that format the JSON return by kubernetes.
+#### Even though your instance is up and running it should take a couple of minute to install everything so be patient :).
 
 ``` bash
 #!/bin/bash
