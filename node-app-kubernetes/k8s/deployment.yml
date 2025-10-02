@@ -15,7 +15,7 @@ spec:
         app: kubernetes-demo-api
     spec:
       containers:
-        - name: devops-k8s-api
+        - name: kubernetes-demo-api
           image: dev126712/k8s-demo-api:latest
           ports:
             - containerPort: 3000
