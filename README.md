@@ -9,6 +9,6 @@ chmod +x 'DockerTerrKub.sh'
 ./'DockerTerrKub.sh'
 cd ../home/admin
 git clone https://github.com/dev126712/project.git
-cd project
+cd project/node-app-kubernetes
 sudo apt install npm -y
 npm install express
