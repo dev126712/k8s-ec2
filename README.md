@@ -85,10 +85,27 @@ kubectl get services
 
 ## Test
 
-### With the help of minikube you can access your services by running:
+### With the help of minikube you can access your services by running in myy case 'devops-k8s-api-service':
 
 ``` bash
-minikube service ...
+minikube service devops-k8s-api-service
+```
+
+## Error
+
+### You might get this error wich is normal because we are running this on an ec2 instance and there no browser.
+![alt text](https://github.com/dev126712/k8s-ec2/blob/27e6584daa91c4763d787148c9582ea9c24afbed/Images/Screenshot%202025-10-02%204.21.35%20PM.png)
+
+### Hopefully we can still access it by using the command curl and jq that format the JSOn we receive.
+
+### Exemple:
+``` bash
+curl -s http://192.168.49.2:32036 | jq .
+```
+
+### You should get something like this: 
+![alt text](https://github.com/dev126712/k8s-ec2/blob/27e6584daa91c4763d787148c9582ea9c24afbed/Images/Screenshot%202025-10-02%204.21.54%20PM.png)
+
 
 
 
