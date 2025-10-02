@@ -93,7 +93,7 @@ minikube service devops-k8s-api-service
 
 ## Error
 
-### You might get this error wich is normal because we are running this on an ec2 instance and there no browser.
+### You might get this error wich is normal because we are running minikube on an ec2 instance instead of our local machine and there no browser.
 ![alt text](https://github.com/dev126712/k8s-ec2/blob/27e6584daa91c4763d787148c9582ea9c24afbed/Images/Screenshot%202025-10-02%204.21.35%20PM.png)
 
 ### Hopefully we can still access it by using the command curl that fetch HTML pages and jq that format the JSON we receive.
