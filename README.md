@@ -31,3 +31,91 @@ sudo apt install jq -y
 sudo docker compose up --build
 ```
 
+### After everything installed make sure that the docker container is running by rinning this command:
+
+``` bash
+docker ps
+```
+### If its says that you dont have the permission needed run this command that gonna give your user the permission to run docker command without 'sudo':
+
+``` bash
+sudo usermod -aG docker $USER && newgrp docker
+```
+### Then you can start minikube by running:
+
+``` bash
+minikube start
+```
+### After that you can run this command and you can see that minikube is running a control plain:
+
+``` bash
+kubectl get nodes
+```
+
+### To check if the cluster is running you can run:
+
+``` bash
+kubectl cluster-info
+```
+
+## Deplyment
+
+### Now deploy the kubernetes files by running each one individualy:
+
+``` bash
+kubectl apply -f k8s/deployment.yml
+kubectl apply -f k8s/service.yml
+```
+### Or
+
+``` bash
+kubectl apply -f k8s/
+```
+
+### To check the pod status you can run :
+
+``` bash
+kubectl get pods -w
+```
+## To get access to the services run:
+
+``` bash
+kubectl get services
+```
+
+## Test
+
+### With the help of minikube you can access your services by running:
+
+``` bash
+minikube service ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
